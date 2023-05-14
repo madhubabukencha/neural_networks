@@ -1,0 +1,19 @@
+COMMON STEPS INVOLVED IN TRAINING ANN:
+--------------------------------------
+STEP 1:-
+Randomly initiate weights to small number close to zero(but not zero)
+
+STEP 2:-
+Input the first observation of your dataset in the input layer, each feature in one input node.
+
+STEP 3:-
+Forward - Propagation: From left to right, the neurons are activated in a way that the impact of each neuron's activation limited by the weights. Propagates the activations until getting the predicted result y.
+
+STEP 4:- 
+Compare the predicted result to the activated result. Measure generated error.
+
+STEP 5:-
+Back - Propagation: from right to left, the error is back-propagated. Update the weights according to how much they are responsible for the error. The learning rate decides by how much we update the weights.
+
+STEP 6:-
+When the whole training set passed through the ANN, that makes an epoch. Redo more epochs.
